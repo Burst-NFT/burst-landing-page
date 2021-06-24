@@ -62,7 +62,7 @@ export const projectsData = [
 export const contactData = {
   cta: 'Check out Twitter to stay up-to-date!',
   btn: 'Follow us',
-  url: 'https://twitter.com/Martin_Lastname',
+  url: 'https://twitter.com/burst_protocol',
 };
 
 // FOOTER DATA
@@ -71,7 +71,7 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'twitter',
-      url: 'https://twitter.com/Martin_Lastname',
+      url: 'https://twitter.com/burst_protocol',
     },
     // {
     //   id: nanoid(),
