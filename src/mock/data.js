@@ -17,49 +17,52 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
+  img: 'burst_original.png',
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: '', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'sunset.jpg',
+    title: 'NFT & Marketplace',
+    info: 'The NFT smart contract & marketplace dapp allows anyone to create a Burst NFT from an unlimited number of ERC-20 tokens.',
+    info2: 'A user can put their Burst NFT up for sale in the marketplace for any value, allowing pricing premiums and discounts to evolve.',
+    url: 'https://spring-wave-9660.on.fleek.co/', // if no url, the button will not show up
+    urlBtnText: 'Live on Ropsten', // if no url, the button will not show up
+    repo: 'https://github.com/Burst-NFT/Burst', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'moon.jpg',
+    title: 'Underlying Asset Utilization',
+    info: 'Since each Burst NFT contains one or more crypto asset, these underlying assets can be used to generate additional value.',
+    info2: 'This value generation can be in the form of familiar protocol functions, such as lending, or through new DeFi derivatives.',
+    url: '', // if no url, the button will not show up
+    urlBtnText: '', // if no url, the button will not show up
+    repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'wall.jpg',
+    title: 'Cross Chain Burst NFTs',
+    info: 'With DeFi taking place across different blockchains, baskets of assets can be created and traded across chains.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: '', // if no url, the button will not show up
+    urlBtnText: '', // if no url, the button will not show up
+    repo: '', // if no repo, the button will not show up
   },
 ];
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
-  btn: '',
-  email: '',
+  cta: 'Check out Twitter to stay up-to-date!',
+  btn: 'Follow us',
+  url: 'https://twitter.com/Martin_Lastname',
 };
 
 // FOOTER DATA
@@ -68,22 +71,22 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'twitter',
-      url: '',
+      url: 'https://twitter.com/Martin_Lastname',
     },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'linkedin',
-      url: '',
-    },
+    // {
+    //   id: nanoid(),
+    //   name: 'codepen',
+    //   url: '',
+    // },
+    // {
+    //   id: nanoid(),
+    //   name: 'linkedin',
+    //   url: '',
+    // },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/Burst-NFT/Burst',
     },
   ],
 };
