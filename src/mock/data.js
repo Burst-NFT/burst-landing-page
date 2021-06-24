@@ -32,7 +32,7 @@ export const projectsData = [
     title: 'NFT & Marketplace',
     info: 'The NFT smart contract & marketplace dapp allows anyone to create a Burst NFT from an unlimited number of ERC-20 tokens.',
     info2: 'A user can put their Burst NFT up for sale in the marketplace for any value, allowing pricing premiums and discounts to evolve.',
-    url: 'https://spring-wave-9660.on.fleek.co/', // if no url, the button will not show up
+    url: 'https://ropsten.burst.casa/', // if no url, the button will not show up
     urlBtnText: 'Live on Ropsten', // if no url, the button will not show up
     repo: 'https://github.com/Burst-NFT/Burst', // if no repo, the button will not show up
   },
